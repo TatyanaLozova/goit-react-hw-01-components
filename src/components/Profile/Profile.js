@@ -1,5 +1,7 @@
 import React from 'react'
-import PropTypes  from "prop-types"
+import PropTypes from "prop-types"
+//  import defaultAvatar from "../components/Profile/default.jpg"
+
 
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
@@ -23,7 +25,7 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
             </li>
             <li>
                 <span class="label">Views</span>
-                <span class="quantity">{stats.vievs}</span>
+                <span class="quantity">{stats.views}</span>
             </li>
             <li>
                 <span class="label">Likes</span>
@@ -33,7 +35,12 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
     </div>
 );
 
-Profile.PropTypes = {
+// Profiler.defaultProps = {
+//     avatar: defaultAvatar,
+// };
+
+
+Profile.propTypes = {
     name: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
