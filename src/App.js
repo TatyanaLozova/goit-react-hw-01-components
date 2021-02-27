@@ -3,14 +3,16 @@ import Profile from "./components/Profile/Profile"
 import user from './components/Profile/user.json'
 
 import Statistics from "./components/Statistics/Statistics";
+// import statisticData from "./components/Statistics/statistical-data.json";
+// console.log (statisticData)
+
 
 import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 
 
 
-
-// import friends from "./components/Friends/FriendList"
-// import FriendList from './components/Friends/friends.json'
+import friends from "./components/Friends/FriendList"
+import FriendList from './components/Friends/friends.json'
 
 
 const App = () => {
@@ -25,8 +27,8 @@ const App = () => {
         />
           
 
-      {/* <FriendList friends={friends} />, */}
-      <Statistics />
+      <FriendList friends={friends} />,
+       <Statistics/>
       <TransactionHistory/>
      </div>
   );
