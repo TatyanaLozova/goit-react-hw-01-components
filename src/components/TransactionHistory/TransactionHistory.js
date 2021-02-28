@@ -5,7 +5,7 @@ import s from './Transaction.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table class={s.transaction}>
+    <table className={s.transaction}>
       <thead>
         <tr>
           <th>Type</th>
@@ -32,7 +32,7 @@ TransactionHistory.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
-      amount: PropTypes.number.isRequired,
+      amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
     }),
   ),
