@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+  border-radius: 5px;
+
+  color: blue;
+}

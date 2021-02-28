@@ -1,0 +1,32 @@
+.online {
+  background-color: #89eb8c;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.offline {
+  background-color: #eb2c29;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.item {
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  background-color: #f3eeee;
+  margin-right: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #f3eeee;
+  border-radius: 5px;
+}
