@@ -1,0 +1,29 @@
+.title {
+  font-size: 30px;
+  font-weight: 980;
+  color: #f38722f8;
+  padding: 20px;
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  list-style: none;
+}
+
+.list li:nth-child(3n + 1) {
+  background-color: rgba(245, 185, 118, 0.993);
+}
+
+.list li:nth-child(3n) {
+  background-color: rgba(240, 209, 247, 0.699);
+}
+
+.list li:nth-child(3n + 2) {
+  background-color: rgba(95, 200, 218, 0.432);
+}
+
+.item {
+  padding: 10px;
+}
