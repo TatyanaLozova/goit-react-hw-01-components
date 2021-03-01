@@ -26,7 +26,7 @@ const App = () => {
           
 
    
-       <Statistics stats={statisticData} title={"Upload stats"} />
+       <Statistics stats={statisticData} title="Upload stats" />
       <TransactionHistory items={transactions} />
  
     </div>
